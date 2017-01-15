@@ -10,11 +10,12 @@ import {Hero} from './hero'
     <ul>
     <li *ngFor="let hero of heroes">{{hero.name}}</li>
     </ul>
+    <click-me></click-me>
 `,
 })
 export class AppComponent {
     title:string = 'Tour of Heroes';
-    heroes:Hero[] = [
+    heroes = [
         new Hero(1, 'Windstorm'),
         new Hero(13, 'Bombasto'),
         new Hero(15, 'Magneta'),
