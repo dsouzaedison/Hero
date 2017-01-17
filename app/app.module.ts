@@ -3,10 +3,11 @@ import {BrowserModule} from '@angular/platform-browser';
 
 import {AppComponent}  from './app.component';
 import {ClickMeComponent} from './click-me.component'
+import {KeyUpComponent_v1} from './little-tour.component';
 
 @NgModule({
     imports: [BrowserModule],
-    declarations: [AppComponent, ClickMeComponent],
+    declarations: [AppComponent, ClickMeComponent, KeyUpComponent_v1],
     bootstrap: [AppComponent]
 })
 export class AppModule {

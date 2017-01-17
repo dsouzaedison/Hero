@@ -11,6 +11,8 @@ import {Hero} from './hero'
     <li *ngFor="let hero of heroes">{{hero.name}}</li>
     </ul>
     <click-me></click-me>
+    <hr>
+    <div> <keyup></keyup></div>
 `,
 })
 export class AppComponent {
